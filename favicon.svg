@@ -6,9 +6,6 @@
     </clipPath>
   </defs>
   
-  <!-- Black background circle for contrast -->
-  <rect width="512" height="512" fill="#000"/>
-  
   <!-- Star outline -->
   <path d="M 256.0,496.0 L 202.1,330.2 L 27.7,330.2 L 168.8,227.7 L 114.9,61.8 L 256.0,164.3 L 397.1,61.8 L 343.2,227.7 L 484.3,330.2 L 309.9,330.2 Z" fill="none" stroke="#333" stroke-width="2"/>
   
