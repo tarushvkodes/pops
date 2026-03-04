@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Clip path for the upside-down star -->
+    <clipPath id="starClip">
+      <path d="M 256.0,496.0 L 202.1,330.2 L 27.7,330.2 L 168.8,227.7 L 114.9,61.8 L 256.0,164.3 L 397.1,61.8 L 343.2,227.7 L 484.3,330.2 L 309.9,330.2 Z"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Black background circle for contrast -->
+  <rect width="512" height="512" fill="#000"/>
+  
+  <!-- Star outline -->
+  <path d="M 256.0,496.0 L 202.1,330.2 L 27.7,330.2 L 168.8,227.7 L 114.9,61.8 L 256.0,164.3 L 397.1,61.8 L 343.2,227.7 L 484.3,330.2 L 309.9,330.2 Z" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Upside-down American flag clipped to star shape -->
+  <g clip-path="url(#starClip)">
+    <!-- The flag is drawn UPSIDE DOWN (flipped vertically) -->
+    <!-- transform="scale(1,-1) translate(0,-512)" flips vertically -->
+    <g transform="translate(256,256) scale(-1,-1) translate(-256,-256)">
+      <!-- 13 stripes (red and white alternating) -->
+      <!-- Each stripe is 512/13 ≈ 39.4 px tall -->
+      <rect x="0" y="0.0" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="39.4" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="78.8" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="118.2" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="157.5" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="196.9" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="236.3" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="275.7" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="315.1" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="354.5" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="393.8" width="512" height="39.9" fill="#B22234"/>
+      <rect x="0" y="433.2" width="512" height="39.9" fill="#FFFFFF"/>
+      <rect x="0" y="472.6" width="512" height="39.9" fill="#B22234"/>
+      <!-- Blue canton -->
+      <rect x="0" y="0" width="204.8" height="275.7" fill="#3C3B6E"/>
+      <!-- Stars in canton (simplified - rows of dots) -->
+      <circle cx="21.9" cy="20.7" r="8" fill="white"/>
+      <circle cx="51.2" cy="20.7" r="8" fill="white"/>
+      <circle cx="80.5" cy="20.7" r="8" fill="white"/>
+      <circle cx="109.7" cy="20.7" r="8" fill="white"/>
+      <circle cx="139.0" cy="20.7" r="8" fill="white"/>
+      <circle cx="168.2" cy="20.7" r="8" fill="white"/>
+      <circle cx="36.6" cy="48.2" r="8" fill="white"/>
+      <circle cx="65.8" cy="48.2" r="8" fill="white"/>
+      <circle cx="95.1" cy="48.2" r="8" fill="white"/>
+      <circle cx="124.3" cy="48.2" r="8" fill="white"/>
+      <circle cx="153.6" cy="48.2" r="8" fill="white"/>
+      <circle cx="21.9" cy="75.8" r="8" fill="white"/>
+      <circle cx="51.2" cy="75.8" r="8" fill="white"/>
+      <circle cx="80.5" cy="75.8" r="8" fill="white"/>
+      <circle cx="109.7" cy="75.8" r="8" fill="white"/>
+      <circle cx="139.0" cy="75.8" r="8" fill="white"/>
+      <circle cx="168.2" cy="75.8" r="8" fill="white"/>
+      <circle cx="36.6" cy="103.4" r="8" fill="white"/>
+      <circle cx="65.8" cy="103.4" r="8" fill="white"/>
+      <circle cx="95.1" cy="103.4" r="8" fill="white"/>
+      <circle cx="124.3" cy="103.4" r="8" fill="white"/>
+      <circle cx="153.6" cy="103.4" r="8" fill="white"/>
+      <circle cx="21.9" cy="131.0" r="8" fill="white"/>
+      <circle cx="51.2" cy="131.0" r="8" fill="white"/>
+      <circle cx="80.5" cy="131.0" r="8" fill="white"/>
+      <circle cx="109.7" cy="131.0" r="8" fill="white"/>
+      <circle cx="139.0" cy="131.0" r="8" fill="white"/>
+      <circle cx="168.2" cy="131.0" r="8" fill="white"/>
+      <circle cx="36.6" cy="158.5" r="8" fill="white"/>
+      <circle cx="65.8" cy="158.5" r="8" fill="white"/>
+      <circle cx="95.1" cy="158.5" r="8" fill="white"/>
+      <circle cx="124.3" cy="158.5" r="8" fill="white"/>
+      <circle cx="153.6" cy="158.5" r="8" fill="white"/>
+      <circle cx="21.9" cy="186.1" r="8" fill="white"/>
+      <circle cx="51.2" cy="186.1" r="8" fill="white"/>
+      <circle cx="80.5" cy="186.1" r="8" fill="white"/>
+      <circle cx="109.7" cy="186.1" r="8" fill="white"/>
+      <circle cx="139.0" cy="186.1" r="8" fill="white"/>
+      <circle cx="168.2" cy="186.1" r="8" fill="white"/>
+      <circle cx="36.6" cy="213.7" r="8" fill="white"/>
+      <circle cx="65.8" cy="213.7" r="8" fill="white"/>
+      <circle cx="95.1" cy="213.7" r="8" fill="white"/>
+      <circle cx="124.3" cy="213.7" r="8" fill="white"/>
+      <circle cx="153.6" cy="213.7" r="8" fill="white"/>
+      <circle cx="21.9" cy="241.2" r="8" fill="white"/>
+      <circle cx="51.2" cy="241.2" r="8" fill="white"/>
+      <circle cx="80.5" cy="241.2" r="8" fill="white"/>
+      <circle cx="109.7" cy="241.2" r="8" fill="white"/>
+      <circle cx="139.0" cy="241.2" r="8" fill="white"/>
+      <circle cx="168.2" cy="241.2" r="8" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Star outline on top for definition -->
+  <path d="M 256.0,496.0 L 202.1,330.2 L 27.7,330.2 L 168.8,227.7 L 114.9,61.8 L 256.0,164.3 L 397.1,61.8 L 343.2,227.7 L 484.3,330.2 L 309.9,330.2 Z" fill="none" stroke="#FFD700" stroke-width="4" stroke-linejoin="round"/>
+</svg>
