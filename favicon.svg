@@ -16,7 +16,7 @@
   <g clip-path="url(#starClip)">
     <!-- The flag is drawn UPSIDE DOWN (flipped vertically) -->
     <!-- transform="scale(1,-1) translate(0,-512)" flips vertically -->
-    <g transform="translate(256,256) scale(1,-1) translate(-256,-256)">
+    <g transform="translate(256,256) scale(-1,-1) translate(-256,-256)">
       <!-- 13 stripes (red and white alternating) -->
       <!-- Each stripe is 512/13 ≈ 39.4 px tall -->
       <rect x="0" y="0.0" width="512" height="39.9" fill="#B22234"/>
