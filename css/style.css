@@ -336,6 +336,28 @@ p + p { margin-top: 1em; }
   position: relative;
   z-index: 2;
 }
+.hero-editorial__inner--split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+.hero-editorial__video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+.hero-editorial__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
 /* The massive mixed-type headline */
 .hero-headline {
@@ -829,6 +851,8 @@ textarea.form-input { resize: vertical; min-height: 120px; }
   .split { grid-template-columns: 1fr; gap: var(--space-lg); }
   .stats-row { grid-template-columns: repeat(2, 1fr); }
   .hero-headline { font-size: clamp(2.8rem, 7vw, 5rem); }
+  .hero-editorial__inner--split { grid-template-columns: 1fr; }
+  .hero-editorial__video { max-width: 560px; } /* cap video width when stacked */
 }
 
 /* iPad portrait */
