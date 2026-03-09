@@ -852,7 +852,7 @@ textarea.form-input { resize: vertical; min-height: 120px; }
   .stats-row { grid-template-columns: repeat(2, 1fr); }
   .hero-headline { font-size: clamp(2.8rem, 7vw, 5rem); }
   .hero-editorial__inner--split { grid-template-columns: 1fr; }
-  .hero-editorial__video { max-width: 560px; }
+  .hero-editorial__video { max-width: 560px; } /* cap video width when stacked */
 }
 
 /* iPad portrait */
